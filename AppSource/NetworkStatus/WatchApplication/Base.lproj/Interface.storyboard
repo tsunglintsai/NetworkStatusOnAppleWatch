@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="8121.17" systemVersion="14D136" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8101.14"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="8066.14"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController">
+                    <items>
+                        <label width="1" height="1" alignment="center" text="Loading" textAlignment="center" id="dwc-uv-KXb"/>
+                        <label alignment="left" text="Label" numberOfLines="0" id="c9b-xw-xwB"/>
+                        <label alignment="left" text="Label" numberOfLines="0" id="Qm4-Em-iON"/>
+                    </items>
+                    <connections>
+                        <outlet property="ipAddress" destination="c9b-xw-xwB" id="Txj-Ay-VY8"/>
+                        <outlet property="loadingLabel" destination="dwc-uv-KXb" id="iEF-GP-DHb"/>
+                        <outlet property="provider" destination="Qm4-Em-iON" id="7Ya-Dp-mBM"/>
+                    </connections>
+                </controller>
+            </objects>
+        </scene>
+    </scenes>
+</document>
